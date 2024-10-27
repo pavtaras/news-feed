@@ -18,7 +18,11 @@ The application is all about regional news. It consists of just a few pages:
 
 Before you start the project you need to go through several steps:
 
+
 ```bash
+# create .env file with this line inside
+DATABASE_URL="file:./dev.db"
+
 # install node 22
 nvm use
 # install dependencies
